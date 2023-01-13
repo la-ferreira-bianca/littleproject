@@ -100,8 +100,7 @@
 			children = (
 				D7E7D0472971D40100155C90 /* HomeView */,
 				D7E7D0462971D3CA00155C90 /* Resources */,
-				D7346D7E296DD75E005739DD /* AppDelegate.swift */,
-				D7346D80296DD75E005739DD /* SceneDelegate.swift */,
+				D7346D8C296DD760005739DD /* Info.plist */,
 			);
 			path = LittleProject;
 			sourceTree = "<group>";
@@ -126,9 +125,10 @@
 		D7E7D0462971D3CA00155C90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7346D7E296DD75E005739DD /* AppDelegate.swift */,
+				D7346D80296DD75E005739DD /* SceneDelegate.swift */,
 				D7346D87296DD760005739DD /* Assets.xcassets */,
 				D7346D89296DD760005739DD /* LaunchScreen.storyboard */,
-				D7346D8C296DD760005739DD /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
