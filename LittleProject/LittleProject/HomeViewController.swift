@@ -8,19 +8,15 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    
-    @IBOutlet weak var ester: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        ester.text = "ester besta"
-        ester.textColor = .purple
     }
 
 
 }
 
-//TODO: - MAKE THE PREVIEW WORK
 #if DEBUG
 import SwiftUI
 
