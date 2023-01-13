@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .gray
     }
 
 
@@ -22,7 +22,7 @@ import SwiftUI
 
 struct HomeViewControllerRepresentable: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> some UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
+        return HomeViewController()
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
